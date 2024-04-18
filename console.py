@@ -115,7 +115,7 @@ class HBNBCommand(cmd.Cmd):
 
         def do_create(self, line):
         """ Usage: creating  <class> <key 1>=<value 2> <key 2>=<value 2> ...
-        Create a new class instance with given keys/values and it prints its id.
+        Create a new class instance with given keys/values and print its id.
         """
         try:
             if not line:
