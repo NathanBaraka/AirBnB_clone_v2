@@ -133,4 +133,5 @@ class TestFileStorage(unittest.TestCase):
         """Test that the storage object is created."""
         from models.engine.file_storage import FileStorage
         self.assertEqual(type(storage), FileStorage)
-
+if __name__ == '__main__':
+    unittest.main()
